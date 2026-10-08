@@ -1,2 +1,2 @@
 # Coldstock-Management-MP
-An offline-first warehouse inventory tracking web app built with Vanilla JS, Google Apps Script, and Google Sheets to manage cold storage fulfillment logistics and resolve network connectivity bottlenecks.   
+Coldstock is an offline-first web application designed to track high-volume FMCG inventory across 1,500+ cold storage locations. Built with a lightweight architecture using vanilla HTML/CSS/JS, Google Apps Script, and a Google Sheets database, the app leverages browser localStorage to ensure continuous data input and prevent stock double-allocation in warehouse environments with unstable networks
