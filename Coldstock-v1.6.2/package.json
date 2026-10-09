@@ -1,0 +1,17 @@
+{
+  "name": "coldstock",
+  "version": "1.6.2",
+  "private": true,
+  "description": "Mobile-first cold storage WMS for Google Apps Script",
+  "scripts": {
+    "start": "node serve.cjs",
+    "build": "tailwindcss -c tailwind.config.cjs -i src/tailwind-input.css -o src/tailwind.css --minify && node build.cjs",
+    "test": "node --test tests.cjs backend-tests.cjs offline-tests.cjs offline-client-tests.cjs delivery-tests.cjs workflow-tests.cjs export-tests.cjs pallet-tests.cjs correction-tests.cjs"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
